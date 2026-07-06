@@ -1,0 +1,12 @@
+/* institucional.css - Estilos especificos solo para institucional.html */
+ 
+.accordion-button:not(.collapsed) {
+  background-color: var(--ipf-verde);
+  color: #fff;
+}
+.list-group-item {
+  border-left: 4px solid var(--ipf-verde);
+}
+.list-group-item:hover {
+  background-color: #eef7ec;
+}

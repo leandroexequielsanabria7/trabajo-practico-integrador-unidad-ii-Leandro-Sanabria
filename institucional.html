@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IPF - Institucional</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/institucional.css">
+</head>
+<body>
+ 
+    <!-- ===== NAVBAR (se repite en las 4 paginas) ===== -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-ipf">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">IPF</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#menu" aria-controls="menu"
+                  aria-expanded="false" aria-label="Menu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link" href="institucional.html">Institucional</a></li>
+              <li class="nav-item"><a class="nav-link" href="carreras.html">Carreras</a></li>
+              <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+ 
+  <main class="container my-5">
+    <h1 class="título-sección">Información Institucional</h1>
+ 
+    <!-- Resena historica -->
+    <section class="mb-4">
+      <h2>Reseña histórica</h2>
+      <p>
+        El Instituto Politecnico Formosa fue creado para responder a la demanda
+        de formación técnica superior de la provincia, consolidandose como un
+        referente en educación tecnológica.
+      </p>
+    </section>
+ 
+    <!-- Mision y Vision con ACCORDION -->
+    <section class="mb-4">
+      <h2>Misión y Visión</h2>
+      <div class="accordion" id="accMisionVision">
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#mision">
+              Mision
+            </button>
+          </h3>
+          <div id="mision" class="accordion-collapse collapse show" data-bs-parent="#accMisionVision">
+            <div class="accordion-body">
+              Formar técnicos competentes, con sólida base científica y compromiso social.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#vision">
+              Vision
+            </button>
+          </h3>
+          <div id="vision" class="accordion-collapse collapse" data-bs-parent="#accMisionVision">
+            <div class="accordion-body">
+              Ser una institución líder en educación técnica superior de la región.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+    <!-- Autoridades con LIST-GROUP -->
+    <section class="mb-4">
+      <h2>Autoridades</h2>
+      <ul class="list-group">
+        <li class="list-group-item">Rector/a - Dirección General</li>
+        <li class="list-group-item">Secretaría Académica</li>
+        <li class="list-group-item">Secretaría Administrativa</li>
+        <li class="list-group-item">Coordinadores de carrera</li>
+      </ul>
+    </section>
+ 
+    <!-- Estructura organizativa -->
+    <section>
+      <h2>Estructura organizativa</h2>
+      <p>
+        La institución se organiza en áreas académicas, administrativas y de
+        vinculación, cada una con responsabilidades definidas para garantizar
+        el funcionamiento integral del instituto.
+      </p>
+    </section>
+  </main>
+ 
+    <!-- ===== FOOTER (se repite en las 4 paginas) ===== -->
+    <footer class="footer-ipf">
+      <div class="container text-center">
+        <p class="mb-1">Instituto Politécnico Formosa (IPF)</p>
+        <p class="mb-0">Ruta Nac. 81 km. 1190 | Formosa | info@ipf.edu.ar</p>
+      </div>
+    </footer>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
