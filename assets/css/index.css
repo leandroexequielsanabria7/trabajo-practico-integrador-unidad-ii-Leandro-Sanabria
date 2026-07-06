@@ -1,6 +1,5 @@
 /* index.css - Estilos especificos solo para index.html */
 
-<<<<<<< HEAD
 .carousel {
   max-width: 1100px;
   margin: 0 auto;
@@ -19,42 +18,13 @@
   background-color: #f4f4f4;
 }
 
-=======
-/* ===== CARRUSEL ===== */
-#carruselIPF {
-  border-radius: 12px;
-  overflow: hidden;
-}
-
->>>>>>> dev-institucional
 .carousel-item img {
   display: block;
   width: 100%;
   height: 420px;
   object-fit: cover;
   object-position: center;
-<<<<<<< HEAD
   margin: 0 auto;
-=======
-}
-
-/* Overlay oscuro para que el texto se lea sobre cualquier imagen */
-.carousel-item {
-  position: relative;
-}
-.carousel-item::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.1));
-}
-
-.carousel-caption {
-  z-index: 2; /* el texto queda sobre el overlay */
->>>>>>> dev-institucional
 }
 
 .carousel-caption {
@@ -70,23 +40,12 @@
   text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
 }
 
-<<<<<<< HEAD
 .carousel-control-prev,
 .carousel-control-next {
   width: 8%;
 }
 
 /* Efecto hover en las tarjetas de inicio */
-=======
-/* Altura mas baja en celulares */
-@media (max-width: 768px) {
-  .carousel-item img {
-    height: 260px;
-  }
-}
-
-/* ===== TARJETAS DE INICIO ===== */
->>>>>>> dev-institucional
 .card {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
