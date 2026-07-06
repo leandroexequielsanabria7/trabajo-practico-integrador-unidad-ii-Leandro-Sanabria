@@ -1,0 +1,28 @@
+/* carreras.css - Estilos especificos solo para carreras.html */
+ 
+.carrera-card {
+  border-top: 4px solid var(--ipf-verde);
+}
+.carrera-card:hover {
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  transform: translateY(-4px);
+  transition: all 0.2s ease;
+}
+.carrera-card .card-title {
+  color: var(--ipf-verde-osc);
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* El contenido principal empuja el footer hacia abajo */
+main {
+  flex: 1;
+}
